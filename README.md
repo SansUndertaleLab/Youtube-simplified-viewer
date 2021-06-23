@@ -39,7 +39,7 @@ class YtVideo:
   - ***str*** `dislikes`: the number of dislikes
 ## example 
 ```py
-vid=YtVideo("https://www.youtube.com/watch?v=F7FhINTZczc")
+vid=YtVideo("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 print(str(vid))
 likes=int(vid.likes.replace(",","").replace(" ",""))
 dislikes=int(vid.dislikes.replace(",","").replace(" ",""))
