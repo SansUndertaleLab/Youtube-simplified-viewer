@@ -28,7 +28,7 @@ class YtVideo:
 ```
 ## docs
 ***obj*** `YtVideo(linkOrId)`:  
-  ***arg*** `linkOrId`: a link to a yt video or id
+    ***arg*** `linkOrId`: a link to a yt video or id
   - ***str*** `id`: the video's id
   - ***str*** `link`: the video's link
   - ***str*** `page`: the contents of the video's youtube page
