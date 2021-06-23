@@ -37,6 +37,7 @@ class YtVideo:
   - ***str*** `views`: the number of views
   - ***str*** `likes`: the number of likes
   - ***str*** `dislikes`: the number of dislikes
+  - ***func*** `open()`: opens the page in browser
 ## example 
 ```py
 vid=YtVideo("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
