@@ -37,3 +37,8 @@ class YtVideo:
   - ***str*** `views`: the number of views
   - ***str*** `likes`: the number of likes
   - ***str*** `dislikes`: the number of dislikes
+## example 
+```py
+vid=YtVideo("https://www.youtube.com/watch?v=F7FhINTZczc")
+print(str(vid))
+```
