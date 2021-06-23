@@ -41,4 +41,5 @@ class YtVideo:
 ```py
 vid=YtVideo("https://www.youtube.com/watch?v=F7FhINTZczc")
 print(str(vid))
+print("{}% liked this".format(((vid.likes-vid.dislikes)/vid.likes)*100)
 ```
