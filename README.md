@@ -27,7 +27,7 @@ class YtVideo:
 					.format(self.id,self.title,self.author,self.views,self.likes,self.dislikes,self.link)
 ```
 ## docs
-***obj*** `YtVideo(linkOrId)`:
+***obj*** `YtVideo(linkOrId)`:  
   `linkOrId`: a link to a yt video or id
   - ***str*** `id`: the video's id
   - ***str*** `link`: the video's link
